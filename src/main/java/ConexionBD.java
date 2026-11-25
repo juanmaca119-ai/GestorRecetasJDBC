@@ -8,12 +8,12 @@ public class ConexionBD {
     private static final String USUARIO = "root";
     private static final String CONTRASENA = "root";
 
-    // Método que usa GestionRecetas
+    //método que usa GestionRecetas
     public static Connection getConexion() throws SQLException {
         return DriverManager.getConnection(URL, USUARIO, CONTRASENA);
     }
 
-    // Método main para probar la conexión directamente (estilo PruebaConexion)
+    //método para probar la conexión
     public static void main(String[] args) {
         try (Connection conexion = getConexion()) {
             System.out.println("Conexión OK.");

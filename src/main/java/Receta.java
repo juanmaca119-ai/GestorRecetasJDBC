@@ -76,10 +76,10 @@ public class Receta {
     @Override
     public String toString () {
         return "id: " + id +
-                " | Nombre: " + nombre +
-                " | Categoria: " + categoria +
-                " | Tiempo: " + tiempoPreparacion + " min" +
-                " | Dificultad: " + dificultad +
-                " | Raciones: " + raciones;
+                " - Nombre: " + nombre +
+                " - Categoria: " + categoria +
+                " - Tiempo: " + tiempoPreparacion + " min" +
+                " - Dificultad: " + dificultad +
+                " - Raciones: " + raciones;
     }
 }
